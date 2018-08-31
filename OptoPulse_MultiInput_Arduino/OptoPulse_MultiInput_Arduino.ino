@@ -12,11 +12,11 @@
 
 // Optogenetics parameters
 const int optoPin = 13; // Optogenetics laser trigger
-const int MAX_INPUTS = 3; // All arrays below must be <= MAX_INPUTS long
-int inputPins[] = {2, 3, 4}; // Avoid 6, 7, 8, 44, 45, 46 as above due to timer conflicts, at least for PWM modes
-int freq_opto[] = {5, 20, 20};
-int burst_on_sec[] = {0, 0, 1};
-int burst_off_sec[] = {0, 0, 3};
+const int MAX_INPUTS = 4; // All arrays below must be <= MAX_INPUTS long
+int inputPins[] = {2, 3, 4, 5}; // Avoid 6, 7, 8, 44, 45, 46 as above due to timer conflicts, at least for PWM modes
+int freq_opto[] = {5, 20, 20, 10};
+int burst_on_sec[] = {0, 0, 1, 0};
+int burst_off_sec[] = {0, 0, 3, 0};
 int ms_opto_pulse = 5; // Gets copied below to pulseOpto.us_pulse
 
 // State parameters
