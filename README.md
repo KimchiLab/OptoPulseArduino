@@ -8,7 +8,7 @@ There are several sketches:
 3. OptoPulse_MultiInput_Arduino: digitalRead driven conversion of multiple inputs to 1 output train of pulses or bursts
 
 
-The emphasis in general above is code interpretation and flexibility, not necessarily speed.
+The emphasis in general above is code interpretation and flexibility, not necessarily speed. When checked using an oscilloscope, accuracy is probably <1ms (between 10-500 us).
 
 
 This code makes use of several librariers:
