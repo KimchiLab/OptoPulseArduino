@@ -12,6 +12,6 @@ The emphasis in general above is code interpretation and flexibility, not necess
 
 
 This code makes use of several librariers:
-digitalWriteFast.h : https://github.com/watterott/Arduino-Libs
-TimerFive : http://letsmakerobots.com/files/Arduino101-Timers.zip
-TimerFour : http://letsmakerobots.com/files/Arduino101-Timers.zip
+1. digitalWriteFast.h : https://github.com/watterott/Arduino-Libs
+2. TimerFive : http://letsmakerobots.com/files/Arduino101-Timers.zip
+3. TimerFour : http://letsmakerobots.com/files/Arduino101-Timers.zip
